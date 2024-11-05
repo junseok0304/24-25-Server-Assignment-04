@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Getter
-@NoArgsConstructor
+@NoArgsConstructor(accessLevel = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @Builder
 public class Course {
